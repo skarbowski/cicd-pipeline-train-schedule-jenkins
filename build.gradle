@@ -15,18 +15,18 @@ task clean(type: Delete) {
 }
 
 // Define build task
-task build(dependsOn: ['clean', 'npm_build'])
+//task build(dependsOn: ['clean', 'npm_build'])
 
-task npm_build(type: Exec) {
-    commandLine 'npm', 'run', 'build'
-}
+//task npm_build(type: Exec) {
+//    commandLine 'npm', 'run', 'build'
+//}
 
-task npm_test(type: Exec) {
-    commandLine 'npm', 'run', 'test'
-}
+//task npm_test(type: Exec) {
+//    commandLine 'npm', 'run', 'test'
+//}
 
 //declare a build task
-//task build
+task build
 
 //declare a task to create a zip of the app
 task zip(type: Zip) {
