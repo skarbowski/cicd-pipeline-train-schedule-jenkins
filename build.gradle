@@ -14,8 +14,6 @@ task clean(type: Delete) {
     delete rootProject.buildDir
 }
 
-// Define build task
-//task build(dependsOn: ['clean', 'npm_build'])
 
 //task npm_build(type: Exec) {
 //    commandLine 'npm', 'run', 'build'
