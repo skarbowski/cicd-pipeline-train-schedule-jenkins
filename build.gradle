@@ -14,15 +14,20 @@ task clean(type: Delete) {
     delete rootProject.buildDir
 }
 
+<<<<<<< HEAD
 /////////////
 
 //task npm_build(type: Exec) {
+=======
+/////////
+//////task npm_build(type: Exec) {
+>>>>>>> 143b962 (webhook_commit_4_ngrok?_nieDziala)
 //    commandLine 'npm', 'run', 'build'
 //}
 
 //task npm_test(type: Exec) {
 //    commandLine 'npm', 'run', 'test'
-//}
+//
 
 //declare a build task
 task build
